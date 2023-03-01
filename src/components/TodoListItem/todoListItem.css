@@ -1,0 +1,25 @@
+li {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  margin-top: 4px;
+  padding: 6px 0;
+  color: black;
+  font-weight: 500;
+}
+
+li span {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-checkbox {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.todo-checkbox input {
+  margin: 3px;
+}

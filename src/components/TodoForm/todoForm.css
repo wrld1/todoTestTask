@@ -1,0 +1,18 @@
+.todo-form {
+  display: flex;
+  gap: 16px;
+}
+
+.input__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__block input {
+  margin: 0;
+  padding: 6px;
+}
+
+.input__error {
+  border: 2px solid red;
+}

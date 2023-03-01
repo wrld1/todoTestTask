@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo-list__header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+  width: 100%;
+  margin-top: 8px;
+  background-color: gray;
+  color: black;
+}
+
+.todo-list__header span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 25%;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
